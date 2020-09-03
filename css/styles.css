@@ -1,0 +1,253 @@
+h1, h2, h3, h4, h5, h6
+{
+  font-family: 'Montserrat', sans-serif;
+}
+
+#main_wrap
+{
+    margin:0 auto;
+    width:960px;
+    position:relative;
+    overflow: hidden;
+}
+
+/* Title Section */
+
+#title
+{
+  background: linear-gradient(#d8d3cd, #41444b);
+}
+
+.container-fluid
+{
+  padding: 3% 15% 7%;
+}
+
+/* Navigation bar */
+
+.navbar
+{
+  padding: 0 0 4.5rem;
+}
+
+.nav-item
+{
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.navbar-brand
+{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+.nav-link
+{
+  font-size: 1.2rem;
+}
+
+
+
+/* Headings */
+.big-heading
+{
+  font-size: 4rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.btns
+{
+  padding: 30px 30px 30px 0;
+}
+
+.macbook-img
+{
+  padding: 20px;
+  width: 90%;
+  position: absolute;
+  right: 6%;
+}
+
+/* Download Buttons */
+.apple-btn
+{
+  margin: 5% 3% 5% 0;
+}
+
+
+/* Features CSS */
+#features
+{
+  padding: 7% 15%;
+  position: relative;
+  background-color: white;
+
+}
+
+.icons
+{
+  color: grey;
+  text-align: center;
+  padding: 0 50px 60px 50px;
+  font-size: 7rem;
+}
+
+.icons:hover
+{
+  color: black;
+}
+
+h3
+{
+  font-size: 1.5rem;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 30px;
+}
+
+.icon-description2
+{
+  font-size: 1.5rem;
+  color: #8f8f8f;
+  padding: 5px 30px;
+}
+
+
+/* Testimonial Section */
+#testimonials
+{
+  text-align: center;
+  background: linear-gradient(#d8d3cd, #838383);
+  color: white;
+}
+
+h2
+{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.pebbles
+{
+  border-radius: 100%;
+  width: 10%;
+  margin: 3%;
+}
+
+/* Press Section */
+#press
+{
+  background-color: #838383;
+  text-align: center;
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.press-row
+{
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.img
+{
+  width: 40%;
+  padding-bottom: 2%;
+  margin-top: 20px;
+}
+
+
+.carousel-item
+{
+  padding: 7% 15%;
+}
+
+/* Pricing Section */
+#pricing
+{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column
+{
+  padding: 3% 2%;
+}
+
+.price-para
+{
+  color: #8f8f8f;
+}
+
+@media (max-width: 1028px)
+{
+  .macbook-img
+  {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title
+  {
+    text-align: center;
+  }
+
+  .nav-link
+  {
+    text-align: right;
+  }
+}
+
+/* Call To Action Section */
+#cta
+{
+  background: linear-gradient(#d8d3cd, #41444b);
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.cta-text
+{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+  padding: 3% 30px;
+}
+
+#footer
+{
+  text-align: center;
+  background-color: white;
+  color: #8f8f8f;
+  padding: 3% 15%;
+}
+
+.social-logo
+{
+  display: inline;
+  padding: 115px 10px;
+  color: black;
+  font-size: 20px;
+}
+
+.socials
+{
+  margin-bottom: 10px;
+}
+
+.carrot
+{
+  padding-right: 10px;
+}
+
+
+.social-logo:hover
+{
+  color: grey;
+}
